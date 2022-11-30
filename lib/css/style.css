@@ -62,7 +62,7 @@ p.lead {
 }
 
 a {
-    color: #28c3ab;
+    color: #148c7d;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -323,19 +323,12 @@ hr {
 ============================ */
 
 .intro {
-    /*
-	width:100%;
-	position:relative;
-	background: url(../img/bg1.jpg) no-repeat top center;
-    background-size: cover;
-    height: auto;
-    -- 
-    */
-
     width:100%;
+    position:relative;
 	text-align:center;
-	/* background:url(../../img/portfolio/image.jpg) left top no-repeat; */
-    background: linear-gradient(45deg, #17a0a0, #c25604);
+	background:url(../../img/portfolio/image.jpg) no-repeat top center;
+    /*background: linear-gradient(45deg, #17a0a0, #c25604);*/
+    background-size: cover;
 }
 
 #intro.intro {
@@ -439,7 +432,7 @@ hr {
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background: #3bbec0;
+    background: #1b5051;
 	color: #fff;
     -webkit-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -562,7 +555,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
     height: 40px;
     line-height: 40px;
     text-align: center;
-    background: #3bbec0;
+    background: #1b5051;
 	color: #fff;
     -webkit-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
@@ -623,7 +616,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 #contact .contact-info a:hover {
-  color: #3bbec0;
+  color: #1b5051;
 }
 
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
@@ -644,8 +637,8 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 #contact .form #sendmessage {
-  color: #3bbec0;
-  border: 1px solid #3bbec0;
+  color: #1b5051;
+  border: 1px solid #1b5051;
   display: none;
   text-align: center;
   padding: 15px;
@@ -654,9 +647,9 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 #contact .form #errormessage {
-  color: #3bbec0;
+  color: #1b5051;
   display: none;
-  border: 1px solid #3bbec0;
+  border: 1px solid #1b5051;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -668,7 +661,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 #contact .form .validation {
-  color: #3bbec0;
+  color: #1b5051;
   display: none;
   margin: 0 0 20px;
   font-weight: 400;
@@ -683,7 +676,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 #contact .form button[type="submit"] {
-  background: #3bbec0;
+  background: #1b5051;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -692,7 +685,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #3bbec0;
+  background: #1b5051;
 }
 
 
@@ -703,7 +696,7 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 footer {
 	text-align: center;
 	padding: 50px 0 ;
-    background-color: #3bbec0 !important;
+    background-color: #1b5051 !important;
 }
 
 footer p {
@@ -849,7 +842,7 @@ footer p {
     border: 1px solid #28c3ab;
     outline: 0;
     color: #000;
-    background-color: #28c3ab;
+    background-color: #1b5051;
 }
 
 .btn-huge {
@@ -878,7 +871,7 @@ footer p {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #3bbec0 !important;
+        background-color: #1b5051 !important;
     }
 /**/
     .navbar-custom.top-nav-collapse {
