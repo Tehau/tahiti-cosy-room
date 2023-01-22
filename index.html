@@ -268,79 +268,87 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-2 col-lg-offset-5">
-                <hr class="marginbot-50">
-            </div>
-        </div>
-        <div class="row contact-info">
-            <div class="col-md-4">
-                <div class="contact-address">
-                    <i class="ion-ios-location-outline"></i>
-                    <h3>Address</h3>
-                    <address>Paea PK18,700 côté montagne, vallée de Papehue</address>
-                    <address>Punaauia PK17, côté montagne, route de Te Maru Ata</address>
+            <div class="row contact-info">
+                <div class="col-md-6">
+                    <div class="contact-address">
+                        <i class="ion-ios-location-outline"></i>
+                        <h5>Paea PK18,700 côté montagne, vallée de Papehue</h5>
+                        <iframe width="400" height="200" id="gmap_canvas1"
+                                src="https://maps.google.com/maps?q=Tahiti%20Cosy%20Room&t=&z=15&ie=UTF8&iwloc=&output=embed">
+                        </iframe>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-md-4">
-                <div class="contact-phone">
-                    <i class="ion-ios-telephone-outline"></i>
-                    <h3>Phone Number</h3>
-                    <p><a href="tel:+33434421964">+689 87 24 20 03</a></p>
+                <div class="col-md-6">
+                    <div class="contact-address">
+                        <i class="ion-ios-location-outline"></i>
+                        <h5>Punaauia PK17, côté montagne, route de Te Maru Ata</h5>
+                        <iframe width="400" height="200" id="gmap_canvas2"
+                                src="https://maps.google.com/maps?q=(-17.6638941,%20-149.5941658)&t=&z=15&ie=UTF8&iwloc=&output=embed">
+                        </iframe>
+                    </div>
                 </div>
-            </div>
+                <!--    </div>-->
 
-            <div class="col-md-4">
-                <div class="contact-email">
-                    <i class="ion-ios-email-outline"></i>
-                    <h3>Email</h3>
-                    <p><a href="mailto:info@example.com">vaiana.rodriguez@gmail.com</a></p>
+                <!--    <div class="row contact-info">-->
+                <div class="col-md-6">
+                    <div class="contact-phone">
+                        <i class="ion-ios-telephone-outline"></i>
+                        <h3>Phone Number</h3>
+                        <p><a href="tel:+33434421964">+689 87 24 20 03</a></p>
+                    </div>
                 </div>
+
+                <div class="col-md-6">
+                    <div class="contact-email">
+                        <i class="ion-ios-email-outline"></i>
+                        <h3>Email</h3>
+                        <p><a href="mailto:vaiana.rodriguez@gmail.com">vaiana.rodriguez@gmail.com</a></p>
+                    </div>
+                </div>
+
             </div>
 
-        </div>
-
-        <div class="form">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                               data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+            <div class="form">
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+                <form action="" method="post" role="form" class="contactForm">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                   data-rule="minlen:4" data-msg="Please enter at least 4 chars"
+                            />
+                            <div class="validation"></div>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                                   data-rule="email" data-msg="Please enter a valid email"
+                            />
+                            <div class="validation"></div>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                               data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject"
                         />
                         <div class="validation"></div>
                     </div>
-                    <div class="form-group col-md-6">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
-                               data-rule="email" data-msg="Please enter a valid email"
-                        />
-                        <div class="validation"></div>
-                    </div>
-                </div>
-                <div class="form-group col-md-12">
-                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                           data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject"
-                    />
-                    <div class="validation"></div>
-                </div>
-                <div class="form-group col-md-12">
+                    <div class="form-group col-md-12">
                     <textarea class="form-control" name="message" rows="5" data-rule="required"
                               data-msg="Please write something for us" placeholder="Message"></textarea>
-                    <div class="validation"></div>
-                </div>
-                <div class="text-center">
-                    <button type="submit" class="btn btn-skin" id="btnContactUs">
-                        Send Message
-                    </button>
-                </div>
-            </form>
-        </div>
+                        <div class="validation"></div>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-skin" id="btnContactUs">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
 
-    </div>
+        </div>
 </section>
 <!-- #contact -->
-
 <footer>
     <div class="container">
         <div class="row">
