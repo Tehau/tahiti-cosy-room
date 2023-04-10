@@ -171,7 +171,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
+            <!--<div class="col-md-4">
                 <div class="wow bounceInUp" data-wow-delay="0.2s">
                     <div class="team boxed-grey">
                         <div class="inner">
@@ -202,8 +202,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
+            </div>-->
+            <div class="col-md">
                 <div class="wow bounceInUp" data-wow-delay="0.5s">
                     <div class="team boxed-grey">
                         <div class="inner">
@@ -250,23 +250,23 @@
             <div class="col-md-12">
                 <div id="myGrid" class="grid-padding">
                     <div class="col-md-4 col-sm-4 padding-right-zero">
-                        <img src="img/portfolio/TCR_Jardin1.JPG" class="img-responsive">
+<!--                        <img src="img/portfolio/TCR_Jardin1.JPG" class="img-responsive"> # REMOVE-->
                         <img src="img/portfolio/Tahiti_Tuhapa_Bungalow1.JPG" class="img-responsive">
-                        <img src="img/portfolio/TCR_Salle_de_Bain.JPG" class="img-responsive">
-                        <img src="img/portfolio/TCR_Jardin2.JPG" class="img-responsive">
+                        <img src="img/portfolio/Tahiti_Tuhapa_Bungalow6.JPG" class="img-responsive">
+<!--                        <img src="img/portfolio/TCR_Salle_de_Bain.JPG" class="img-responsive"> # REMOVE-->
+<!--                        <img src="img/portfolio/TCR_Jardin2.JPG" class="img-responsive">  # REMOVE-->
                     </div>
                     <div class="col-md-4 col-sm-4 padding-right-zero">
-                        <img src="img/portfolio/TCR_Tahiti_Parata_Room1.JPG" class="img-responsive">
+<!--                        <img src="img/portfolio/TCR_Tahiti_Parata_Room1.JPG" class="img-responsive"> # REMOVE-->
                         <img src="img/portfolio/Tahiti_Tuhapa_Bungalow4.JPG" class="img-responsive">
-                        <img src="img/portfolio/TCR_Tahiti_Omamao_Room.jpg" class="img-responsive">
-                        <img src="img/portfolio/TCR_Cuisine_SAM.JPG" class="img-responsive">
+<!--                        <img src="img/portfolio/TCR_Tahiti_Omamao_Room.jpg" class="img-responsive"> # REMOVE-->
+<!--                        <img src="img/portfolio/TCR_Cuisine_SAM.JPG" class="img-responsive"> # REMOVE-->
                         <img src="img/portfolio/Tahiti_Tuhapa_Bungalow3.JPG" class="img-responsive">
                     </div>
                     <div class="col-md-4 col-sm-4 padding-right-zero">
                         <img src="img/portfolio/Tahiti_Tuhapa_Bungalow5.JPG" class="img-responsive">
                         <img src="img/portfolio/Tahiti_Tuhapa_Bungalow7.JPG" class="img-responsive">
-                        <img src="img/portfolio/Tahiti_Tuhapa_Bungalow6.JPG" class="img-responsive">
-                        <img src="img/portfolio/Tahiti_Parata_Room.JPG" class="img-responsive">
+<!--                        <img src="img/portfolio/Tahiti_Parata_Room.JPG" class="img-responsive"> # REMOVE-->
                     </div>
                 </div>
             </div>
@@ -295,17 +295,22 @@
     <div class="container">
         <div class="row">
             <div class="row contact-info">
-                <div class="col-md-6" style="padding: 0px">
+
+                <div class="col-md">
+                <iframe width="600" height="150" id="gmap_canvas1"
+                        src="https://maps.google.com/maps?q=Tahiti%20Cosy%20Room&t=&z=15&ie=UTF8&iwloc=&output=embed">
+                </iframe>
+                </div>
+
+                <div class="col-md-4" style="padding: 0px">
                     <div class="contact-phone">
                         <i class="ion-ios-location-outline"></i>
-                        <h5>Punaauia PK17, côté montagne, route de Te Maru Ata</h5>
-                        <iframe width="400" height="200" id="gmap_canvas1"
-                                src="https://maps.google.com/maps?q=Tahiti%20Cosy%20Room&t=&z=15&ie=UTF8&iwloc=&output=embed">
-                        </iframe>
+                        <h3 id="address">Address</h3>
+                        <p>Punaauia PK17, côté montagne, route de Te Maru Ata</p>
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <!--<div class="col-md-6">
                     <div class="contact-address">
                         <i class="ion-ios-location-outline"></i>
                         <h5>Paea PK18,700 côté montagne, vallée de Papehue</h5>
@@ -313,11 +318,11 @@
                                 src="https://maps.google.com/maps?q=(-17.6638941,%20-149.5941658)&t=&z=15&ie=UTF8&iwloc=&output=embed">
                         </iframe>
                     </div>
-                </div>
+                </div>-->
                 <!--    </div>-->
 
                 <!--    <div class="row contact-info">-->
-                <div class="col-md-6" style="padding: 0px">
+                <div class="col-md-4" style="padding: 0px">
                     <div class="contact-phone">
                         <i class="ion-ios-telephone-outline"></i>
                         <h3 id="phone">Phone Number</h3>
@@ -325,7 +330,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="contact-email">
                         <i class="ion-ios-email-outline"></i>
                         <h3>Email</h3>
@@ -419,15 +424,20 @@
             phone: 'phone number',
             room: 'Room',
             cabin: 'Cabin',
+            address: 'Address',
             title: 'Welcome to Tahiti Cosy Room!',
             subtitle: 'Come on experience Polynesia lifestyle in a comfortable home',
-            description: 'Come on experience Polynesia lifestyle in a comfortable home, you can enjoy a peaceful walk in the gardens or swim in one of our beautiful beaches just a stroll away , Vaiva Beach and Mahana Park and you can also find a few restaurants, shopping centre and supermarket near by \n' +
-                'We offer accomodations in punaauia,Te Maru Ata in our Tahiti Tuhapa bungalow with an ensuite .\n' +
-                'We also offer shared accommodations in our family home in Paea \n' +
-                'Shared kitchen, dining room and bathroom \n' +
-                'You can access internet and parking or just enjoy our beautiful garden.\n' +
-                '\n' +
-                'See you soon!'
+            description: 'Come on experience Polynesia lifestyle in a comfortable home, you can enjoy a peaceful walk\n' +
+                'in the gardens or swim in one of our beautiful beaches just a stroll away, Vaiava Beach (PK18)\n' +
+                'and Mahana Park. You can also find a few restaurants, shopping centre and supermarket\n' +
+                'nearby.\n' +
+                'We offer accomodation in Punaauia Town, Te Maru Ata in our Tahiti Tūhapa bungalow with\n' +
+                'an ensuite.\n' +
+                'It is equipped with a mini-fridge, a microwave, a kettle, utensils and cutlery, a wardrobe, Fiber\n' +
+                'Optic Wifi, possibility of parking a car, a washing machine washing and laundry, fully\n' +
+                'equipped homestay kitchen.\n' +
+                'See you soon !\n' +
+                'Nana, Pārahi, Au revoir, Bye Bye, Chao.'
         },
         fr: {
             menu_home: 'Accueil',
@@ -443,13 +453,19 @@
             phone: 'numéro de téléphone',
             room: 'Chambre',
             cabin: 'Cabine',
+            address: 'Adresse',
             title: '\'Ia Ora Na ‘e Mānava nō Tahiti Cosy Room !',
-            subtitle: 'Venez vivre la vie à la polynésienne dans nos logements pour passer un séjour authentique et en osmose avec la nature.',
-            description: 'Venez vivre la vie à la polynésienne dans nos logements pour passer un séjour authentique et en osmose avec la nature. Nous nous trouvons près des plus belles plages de Tahiti : Vaiava Beach (ou PK18) et le Mahana Parc. D’autres commodités sont à proximité comme les supermarchés, restaurants, centres commerciaux (…). Nous nous trouvons à 18km de la capitale de Pape’ete.\n' +
-                'Nous proposons un logement sur la commune de Punaauia, Te Maru Ata avec notre Tahiti Tūhapa Bungalow et sa salle de bain privée dans notre terrain familial. \n' +
-                'Nous proposons aussi nos chambres en colocation dans notre maison familiale sur la commune de Paea, dans la vallée de Papehue avec la Tahiti \'Omāma\'o Room et la Tahiti Parata Room. Les parties communes étant la cuisine/salle à manger et la salle de bain.\n' +
-                'Pour tous les logements vous pourrez vous connecter à internet, garer une voiture, profiter des jardins. \n' +
-                '\n' +
+            subtitle: 'Venez vivre la vie à la polynésienne dans notre Tahiti Tūhapa Bungalow pour passer un séjour authentique et en osmose avec la nature.',
+            description: 'Venez vivre la vie à la polynésienne dans notre Tahiti Tūhapa Bungalow pour passer un séjour\n' +
+                'authentique et en osmose avec la nature. Nous nous trouvons près des plus belles plages de\n' +
+                'Tahiti : Vaiava Beach (ou PK18) et le Mahana Parc. D’autres commodités sont à proximité\n' +
+                'comme les supermarchés, restaurants, centres commerciaux (…). Nous nous trouvons à 19km\n' +
+                'de la capitale de Pape’ete.\n' +
+                'Nous proposons un logement sur la commune de Punaauia, Te Maru Ata avec notre Tahiti\n' +
+                'Tūhapa Bungalow et sa salle de bain privée dans notre terrain familial.\n' +
+                'Il est équipé d’un mini-réfrigérateur, d’un micro-ondes, d’une bouilloire, de draps et\n' +
+                'serviettes, des plats et ustensiles, d’une armoire, de la wifi fibre optique, une voiture peut être\n' +
+                'garée, une machine à laver est à votre disposition.\n' +
                 'A bientôt !\n' +
                 'Nana, Pārahi, Au revoir, Bye Bye, Chao.'
         },
@@ -467,14 +483,20 @@
             phone: 'número de teléfono',
             room: 'Habitación',
             cabin: 'Cabina',
+            address: 'Dirección',
             title: '\'Ia Ora Na ‘e Mānava nō Tahiti Cosy Room !',
-            subtitle: 'Vienen a vivir la vida polinesia en nuestros alojamientos para pasar una estancia auténtica y en ósmosis con la naturaleza.',
-            description: 'Vienen a vivir la vida polinesia en nuestros alojamientos para pasar una estancia auténtica y en ósmosis con la naturaleza. Estamos cerca de las playas más hermosas de Tahiti : Vaiava Beach (o PK18) y Mahana Park. Hay comodidades cercas, como supermercados, restaurantes, centros comerciales (…). Estamos a 18km de la capital de Pape\'ete.\n' +
-                'Proponemos un alojamiento en la comuna de Punaauia, Te Maru Ata con el Tahiti Tūhapa Bungaló y su baño privado en nuestro terreno familiar.\n' +
-                'También proponemos nuestras habitaciones compartidas en nuestra casa familiar en la comuna de Paea, en el valle de Papehue con la Tahiti \'Omāma\'o Room y la  Tahiti Parata Room. Las partes comunes son la cocina/comedor y el baño.\n' +
-                'En cada alojamiento se puede conectar al internet, aparcar un auto, disfrutar de los jardines.\n' +
-                '\n' +
-                'Hasta pronto !\n' +
+            subtitle: 'Les invitamos a vivir la vida polinesica en nuestro Tahiti Tūhapa Bungalow para pasar una estancia auténtica y en ósmosis con la naturaleza.',
+            description: 'Les invitamos a vivir la vida polinesica en nuestro Tahiti Tūhapa Bungalow para pasar una\n' +
+                'estancia auténtica y en ósmosis con la naturaleza.\n' +
+                'Estamos cerca de las playas más hermosas de Tahiti : Vaiava Beach (o PK18) y Mahana Park.\n' +
+                'Hay comodidades cercas, como los supermercados, restaurantes, centros comerciales (…).\n' +
+                'Estamos a 17km de la capital de Pape\'ete.\n' +
+                'Proponemos un alojamiento en la comuna de Punaauia, Te Maru Ata con el Tahiti Tūhapa\n' +
+                'Bungalow y su baño privado en nuestro terreno familiar.\n' +
+                'Está equipado de un mini-refrigerador, de un microondas, de una tetera, sábanas y toallas,\n' +
+                'platos y ustensiles, de un armario, del Wifi fibra óptica, se puede aparcar un auto, hay un\n' +
+                'acceso a la lavadora.\n' +
+                '¡ Hasta pronto !\n' +
                 'Nana, Pārahi, Au revoir, Bye Bye, Chao.'
         }
     };
@@ -484,10 +506,6 @@
 
         // Retrieve the language from localStorage
         var selectedLang = localStorage.getItem('lang');
-
-        // Get the elements to change
-        const title = document.getElementById('title');
-        const subtitle = document.getElementById('subtitle');
 
         // Set the text for each element based on the selected language
         document.getElementById('menu_home').innerText = language[selectedLang].menu_home;
@@ -504,9 +522,10 @@
         document.getElementById('contact_us').innerText = language[selectedLang].contact_us;
         document.getElementById('pictures').innerText = language[selectedLang].pictures;
         document.getElementById('phone').innerText = language[selectedLang].phone;
-        document.getElementById('room1').innerText = language[selectedLang].room;
-        document.getElementById('room2').innerText = language[selectedLang].room;
+        // document.getElementById('room1').innerText = language[selectedLang].room;
+        // document.getElementById('room2').innerText = language[selectedLang].room;
         document.getElementById('cabin').innerText = language[selectedLang].cabin;
+        document.getElementById('address').innerText = language[selectedLang].address;
     }
 
     // Retrieve the language from localStorage on page load
@@ -532,9 +551,11 @@
     document.getElementById('contact_us').innerText = language[selectedLang].contact_us;
     document.getElementById('pictures').innerText = language[selectedLang].pictures;
     document.getElementById('phone').innerText = language[selectedLang].phone;
-    document.getElementById('room1').innerText = language[selectedLang].room;
-    document.getElementById('room2').innerText = language[selectedLang].room;
+    // document.getElementById('room1').innerText = language[selectedLang].room;
+    // document.getElementById('room2').innerText = language[selectedLang].room;
     document.getElementById('cabin').innerText = language[selectedLang].cabin;
+    document.getElementById('address').innerText = language[selectedLang].address;
+    console.log(language[selectedLang].address)
 
 </script>
 
